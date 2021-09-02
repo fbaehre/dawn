@@ -171,6 +171,7 @@
       "type": "video",
       "settings": {
         "heading": "Video",
+        "cover_image": "shopify:\/\/shop_images\/red-fabric-illuminated-by-the-sun.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false
