@@ -47,7 +47,14 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Quick links 1",
+              "menu": "footer"
+            }
+          },
+          "238988fd-1403-4a5d-a953-a35c6e2f663a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links 2",
               "menu": "footer"
             }
           },
@@ -61,6 +68,7 @@
         },
         "block_order": [
           "footer-0",
+          "238988fd-1403-4a5d-a953-a35c6e2f663a",
           "footer-1"
         ],
         "settings": {
