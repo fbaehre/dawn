@@ -51,17 +51,18 @@
           "type": "heading",
           "settings": {
             "heading": "#hereinspaziert in dein Nähcenter - Dein Onlineshop Rund ums Nähen",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>In unserem virtuellen Stoffladen findest du liebevoll <br\/>ausgesuchte Stoffe & Nähbedarf. Du kaufst lieber lokal ein und <br\/>möchtest die Stoffe streicheln können? Perfekt, dann besuch uns in einer<br\/> unserer 5 Filialen. Du findest dein Nähcenter in Braunschweig, Gifhorn,<br\/> Goslar, Hannover und Wolfsburg. Wir bieten dir online sowie lokal eine <br\/>große Auswahl Stoffe zum Sammeln, Verschenken oder Selbstbehalten - zum <br\/>Stöbern oder Inspirieren - auf jeden Fall zum Verlieben! Nähen für <br\/>Kinder mit unseren tollen Jersey- & Sweat Stoffen zauberst du dir <br\/>deinen individuellen Style. Du nähst lieber Taschen, Kissen & Co.? <br\/>Mit unseren hochwertigen Canvas- & Kunstleder Stoffen verleihst du <br\/>deinem Zuhause eine eigene Note.<\/p><p>Nähanfänger & Profis werden <br\/>in unserem Nähmaschinen Shop bestimmt fündig. Ob preiswertes <br\/>Einsteigermodell, oder High End Gerät, wir beraten dich gern! Wir führen<br\/> unter anderem folgende Marken: Janome, Babylock, Pfaff, elna, bernina, <br\/>Husqvarna, brother<br\/>Dein Nähcenter Team<\/p>"
+            "text": "<p>In unserem virtuellen Stoffladen findest du liebevoll ausgesuchte Stoffe & Nähbedarf. Du kaufst lieber lokal ein und möchtest die Stoffe streicheln können? Perfekt, dann besuch uns in einer unserer 5 Filialen. Du findest dein Nähcenter in Braunschweig, Gifhorn, Goslar, Hannover und Wolfsburg. Wir bieten dir online sowie lokal eine große Auswahl Stoffe zum Sammeln, Verschenken oder Selbstbehalten - zum Stöbern oder Inspirieren - auf jeden Fall zum Verlieben! Nähen für  Kinder mit unseren tollen Jersey- & Sweat Stoffen zauberst du dir deinen individuellen Style. Du nähst lieber Taschen, Kissen & Co.? Mit unseren hochwertigen Canvas- & Kunstleder Stoffen verleihst du deinem Zuhause eine eigene Note.<\/p><p>Nähanfänger & Profis werden in unserem Nähmaschinen Shop bestimmt fündig. Ob preiswertes  Einsteigermodell, oder High End Gerät, wir beraten dich gern! Wir führen unter anderem folgende Marken: Janome, Babylock, Pfaff, elna, bernina, Husqvarna, brother<br\/>Dein Nähcenter Team<\/p>"
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
