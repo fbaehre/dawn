@@ -95,6 +95,37 @@
         "show_rating": false
       }
     },
+    "1630570094008e324a": {
+      "type": "newsletter",
+      "blocks": {
+        "1630570094008e324a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter"
+          }
+        },
+        "1630570094008e324a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Jetzt unseren Newsletter abonieren und nie  wieder Neuigkeiten verpassen!<\/p>"
+          }
+        },
+        "1630570094008e324a-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1630570094008e324a-0",
+        "1630570094008e324a-1",
+        "1630570094008e324a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -190,6 +221,7 @@
     "image_banner",
     "rich_text",
     "featured_products",
+    "1630570094008e324a",
     "collage",
     "video",
     "multi_column"
