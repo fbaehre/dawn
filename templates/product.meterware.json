@@ -106,7 +106,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Wie gefällt dir",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
