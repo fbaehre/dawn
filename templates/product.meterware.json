@@ -60,6 +60,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "bce7a005-c57c-4dbb-93d2-0bae59187dcc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Waschanleitung",
+            "content": "<p>Anleitungen zum Waschen<\/p>",
+            "page": "page1",
+            "icon": "washing"
+          }
         }
       },
       "block_order": [
@@ -72,7 +81,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "bce7a005-c57c-4dbb-93d2-0bae59187dcc"
       ],
       "settings": {
         "enable_sticky_info": true,
