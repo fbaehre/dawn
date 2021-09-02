@@ -78,6 +78,13 @@
           "settings": {
             "share_label": "Teilen"
           }
+        },
+        "0f4b8d96-afe4-4b35-bb0c-56cee7706044": {
+          "type": "text",
+          "settings": {
+            "text": "Lieferung in 1 bis 3 Werktagen",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -92,7 +99,8 @@
         "description",
         "bce7a005-c57c-4dbb-93d2-0bae59187dcc",
         "34a4c8c4-ecc0-4ccc-a213-058adc5690ca",
-        "share"
+        "share",
+        "0f4b8d96-afe4-4b35-bb0c-56cee7706044"
       ],
       "settings": {
         "enable_sticky_info": true,
