@@ -30,6 +30,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -40,6 +41,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -50,6 +52,13 @@
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
+          }
+        },
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Custom Grundpreis"
           }
         }
       },
@@ -62,14 +71,25 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },
