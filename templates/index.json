@@ -10,6 +10,12 @@
             "heading_size": "medium"
           }
         },
+        "976c8a97-7e8e-4b87-9cdd-92c395e894fb": {
+          "type": "text",
+          "settings": {
+            "text": "Strickstoff Bono von Swafing in neuen Farben"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -20,18 +26,12 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "976c8a97-7e8e-4b87-9cdd-92c395e894fb": {
-          "type": "text",
-          "settings": {
-            "text": "Strickstoff Bono von Swafing in neuen Farben"
-          }
         }
       },
       "block_order": [
         "heading",
-        "button",
-        "976c8a97-7e8e-4b87-9cdd-92c395e894fb"
+        "976c8a97-7e8e-4b87-9cdd-92c395e894fb",
+        "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/close-up-of-jean-fabric.jpg",
@@ -39,7 +39,7 @@
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -75,7 +75,7 @@
         "button"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true
       }
     },
