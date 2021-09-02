@@ -30,18 +30,14 @@
         "8cb6f851-46ed-42a8-92d4-30111b61d7b2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "Custom Grundpreis"
+            "custom_liquid": "<div class=\"product-form__input product-form__quantity\" {{ block.shopify_attributes }}>\n<label class=\"form__label\" for=\"Quantity-{{ section.id }}\">\n{{ 'products.product.quantityMeter.label' | t }}<\/label>\n<quantity-input class=\"quantity\">\n<button class=\"quantity__button no-js-hidden\" name=\"minus\" type=\"button\">\n<span class=\"visually-hidden\">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}<\/span>\n{% render 'icon-minus' %}\n<\/button>\n<input class=\"quantity__input\"                     type=\"number\"                   name=\"quantity\"           id=\"Quantity-{{ section.id }}\"\n                      min=\"3\"                     value=\"3\"                      form=\"product-form-{{ section.id }}\"\n>\n\n<button class=\"quantity__button no-js-hidden\" name=\"plus\" type=\"button\">\n\n<span class=\"visually-hidden\">\n{{ 'products.product.quantity.increase' | t: product: product.title | escape }}<\/span>\n{% render 'icon-plus' %}\n\n<\/button>\n<\/quantity-input>\n<\/div>"
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "aa43d27d-59a4-4123-b141-f7c27800c83c": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
+            "text": "3 entspricht 30 cm",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
@@ -93,7 +89,7 @@
         "subtitle",
         "price",
         "8cb6f851-46ed-42a8-92d4-30111b61d7b2",
-        "variant_picker",
+        "aa43d27d-59a4-4123-b141-f7c27800c83c",
         "buy_buttons",
         "0f4b8d96-afe4-4b35-bb0c-56cee7706044",
         "description",
@@ -110,7 +106,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Wie gefällt dir",
         "image_ratio": "square",
         "show_secondary_image": true,
         "add_image_padding": false,
