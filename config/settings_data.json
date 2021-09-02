@@ -10,6 +10,7 @@
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
     "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "background-1",
     "social_facebook_link": "https:\/\/de-de.facebook.com\/Naehcenter",
     "social_instagram_link": "http:\/\/instagram.com\/naehcenter\/",
     "sections": {
@@ -86,8 +87,8 @@
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       },
