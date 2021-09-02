@@ -50,14 +50,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "#hereinspaziert in dein Nähcenter - Dein Onlineshop Rund ums Nähen",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>In unserem virtuellen Stoffladen findest du liebevoll <br\/>ausgesuchte Stoffe & Nähbedarf. Du kaufst lieber lokal ein und <br\/>möchtest die Stoffe streicheln können? Perfekt, dann besuch uns in einer<br\/> unserer 5 Filialen. Du findest dein Nähcenter in Braunschweig, Gifhorn,<br\/> Goslar, Hannover und Wolfsburg. Wir bieten dir online sowie lokal eine <br\/>große Auswahl Stoffe zum Sammeln, Verschenken oder Selbstbehalten - zum <br\/>Stöbern oder Inspirieren - auf jeden Fall zum Verlieben! Nähen für <br\/>Kinder mit unseren tollen Jersey- & Sweat Stoffen zauberst du dir <br\/>deinen individuellen Style. Du nähst lieber Taschen, Kissen & Co.? <br\/>Mit unseren hochwertigen Canvas- & Kunstleder Stoffen verleihst du <br\/>deinem Zuhause eine eigene Note.<\/p><p>Nähanfänger & Profis werden <br\/>in unserem Nähmaschinen Shop bestimmt fündig. Ob preiswertes <br\/>Einsteigermodell, oder High End Gerät, wir beraten dich gern! Wir führen<br\/> unter anderem folgende Marken: Janome, Babylock, Pfaff, elna, bernina, <br\/>Husqvarna, brother<br\/>Dein Nähcenter Team<\/p>"
           }
         },
         "button": {
