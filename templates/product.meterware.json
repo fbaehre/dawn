@@ -64,12 +64,6 @@
             "icon": "washing"
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "34a4c8c4-ecc0-4ccc-a213-058adc5690ca": {
           "type": "collapsible_tab",
           "settings": {
@@ -77,6 +71,12 @@
             "content": "",
             "page": "pdp-trocknen",
             "icon": "dryer"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
           }
         }
       },
@@ -91,8 +91,8 @@
         "buy_buttons",
         "description",
         "bce7a005-c57c-4dbb-93d2-0bae59187dcc",
-        "share",
-        "34a4c8c4-ecc0-4ccc-a213-058adc5690ca"
+        "34a4c8c4-ecc0-4ccc-a213-058adc5690ca",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -104,8 +104,8 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
