@@ -39,7 +39,7 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector_meter": {
+        "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
           }
