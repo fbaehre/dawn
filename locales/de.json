@@ -115,12 +115,6 @@
         "increase": "Erhöhe die Menge für {{ product }}",
         "decrease": "Verringere die Menge für {{ product }}"
       },
-       "quantityMeter": {
-          "label": "Anzahl",
-          "input_label": "Anzahl von {{ product }}",
-          "increase": "Erhöhe die Menge für {{ product }}",
-          "decrease": "Verringere die Menge für {{ product }}"
-      },
       "price": {
         "from_price_html": "Von {{ price }}",
         "regular_price": "Normaler Preis",
