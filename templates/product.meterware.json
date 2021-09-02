@@ -27,6 +27,12 @@
           "settings": {
           }
         },
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "Custom Grundpreis"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -54,12 +60,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "8cb6f851-46ed-42a8-92d4-30111b61d7b2": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "Custom Grundpreis"
-          }
         }
       },
       "block_order": [
@@ -67,12 +67,12 @@
         "title",
         "subtitle",
         "price",
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "8cb6f851-46ed-42a8-92d4-30111b61d7b2"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
