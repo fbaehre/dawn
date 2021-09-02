@@ -180,19 +180,11 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/red-fabric-illuminated-by-the-sun.jpg",
-            "title": "",
-            "text": "<p>Braunschweig<\/p>"
-          }
-        },
         "column2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/red-fabric-illuminated-by-the-sun.jpg",
-            "title": "Column",
+            "title": "Column 1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
@@ -200,20 +192,20 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/red-fabric-illuminated-by-the-sun.jpg",
-            "title": "Column",
+            "title": "Column 2",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "07730c31-9816-43e9-a4ca-7d391b7fa1bf": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/fabric-rolls-for-sale.jpg",
+            "title": "Column 3",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
       "block_order": [
-        "column1",
         "column2",
         "column3",
         "07730c31-9816-43e9-a4ca-7d391b7fa1bf"

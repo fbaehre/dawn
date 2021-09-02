@@ -18,14 +18,23 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Announcement bar 1",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "dfcfefb2-4253-423f-bd35-fe75d4440daf": {
+            "type": "announcement",
+            "settings": {
+              "text": "Announcement bar 2",
               "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "dfcfefb2-4253-423f-bd35-fe75d4440daf"
         ],
         "settings": {
         }
