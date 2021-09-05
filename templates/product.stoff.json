@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__input product-form__quantity\" {{ block.shopify_attributes }}>\n<label class=\"form__label\" for=\"Quantity-{{ section.id }}\">\n{{ 'products.product.quantity.label' | t }} in 10 cm <\/label>\n<quantity-input class=\"quantity\">\n<button class=\"quantity__button no-js-hidden\" name=\"minus\" type=\"button\">\n<span class=\"visually-hidden\">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}<\/span>\n{% render 'icon-minus' %}\n<\/button>\n<input class=\"quantity__input\"                     type=\"number\"                   name=\"quantity\"           id=\"Quantity-{{ section.id }}\"\n                      min=\"3\"                     value=\"3\"                      form=\"product-form-{{ section.id }}\"\n>\n\n<button class=\"quantity__button no-js-hidden\" name=\"plus\" type=\"button\">\n\n<span class=\"visually-hidden\">\n{{ 'products.product.quantity.increase' | t: product: product.title | escape }}<\/span>\n{% render 'icon-plus' %}\n\n<\/button>\n<\/quantity-input>\n<\/div>"
+          }
+        },
+        "aa43d27d-59a4-4123-b141-f7c27800c83c": {
+          "type": "text",
+          "settings": {
+            "text": "3 entspricht 30 cm",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "0f4b8d96-afe4-4b35-bb0c-56cee7706044": {
+          "type": "text",
+          "settings": {
+            "text": "Lieferung in 1 bis 3 Werktagen",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "bce7a005-c57c-4dbb-93d2-0bae59187dcc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Waschen",
+            "content": "",
+            "page": "pdp-waschen",
+            "icon": "washing"
+          }
+        },
+        "34a4c8c4-ecc0-4ccc-a213-058adc5690ca": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Trocknen",
+            "content": "",
+            "page": "pdp-trocknen",
+            "icon": "dryer"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "8cb6f851-46ed-42a8-92d4-30111b61d7b2",
+        "aa43d27d-59a4-4123-b141-f7c27800c83c",
+        "buy_buttons",
+        "0f4b8d96-afe4-4b35-bb0c-56cee7706044",
+        "description",
+        "bce7a005-c57c-4dbb-93d2-0bae59187dcc",
+        "34a4c8c4-ecc0-4ccc-a213-058adc5690ca",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Wie gefällt dir",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}
