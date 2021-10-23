@@ -127,14 +127,14 @@
                       </div>
                     </div>
                     <div class="cart-item__price-wrapper">
-                      {%- if item.original_line_price != bb_final_line_price -%}
+                      {%- if bb_original_line_price != bb_final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              {{ bb_original_line_price | money }}
                             </s>
                           </dd>
                           <dt class="visually-hidden">
@@ -146,7 +146,7 @@
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          {{ bb_original_line_price | money }}
                         </span>
                       {%- endif -%}
 
@@ -206,14 +206,14 @@
                     </div>
 
                     <div class="cart-item__price-wrapper">
-                      {%- if item.original_line_price != bb_final_line_price -%}
+                      {%- if bb_original_line_price != bb_final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              {{ bb_original_line_price | money }}
                             </s>
                           </dd>
                           <dt class="visually-hidden">
@@ -225,7 +225,7 @@
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          {{ bb_original_line_price | money }}
                         </span>
                       {%- endif -%}
 
