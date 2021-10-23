@@ -29,7 +29,9 @@
     {%- endif -%}
   </div>
 
-  <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
+  <form action="{% if bb_checkout_link != blank %}{{ bb_checkout_link }}{% else %}{{ routes.cart_url }}{% endif %}" class="cart__contents critical-hidden" method="post" id="cart">
+{% render 'bb', type: 'cart' %}
+    
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
         {%- if cart != empty -%}
