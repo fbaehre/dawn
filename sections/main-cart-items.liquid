@@ -127,7 +127,7 @@
                       </div>
                     </div>
                     <div class="cart-item__price-wrapper">
-                      {%- if item.original_line_price != item.final_line_price -%}
+                      {%- if item.original_line_price != bb_final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
@@ -141,7 +141,7 @@
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            {{ bb_final_line_price | money }}
                           </dd>
                         </dl>
                       {%- else -%}
@@ -206,7 +206,7 @@
                     </div>
 
                     <div class="cart-item__price-wrapper">
-                      {%- if item.original_line_price != item.final_line_price -%}
+                      {%- if item.original_line_price != bb_final_line_price -%}
                         <dl class="cart-item__discounted-prices">
                           <dt class="visually-hidden">
                             {{ 'products.product.price.regular_price' | t }}
@@ -220,7 +220,7 @@
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            {{ bb_final_line_price | money }}
                           </dd>
                         </dl>
                       {%- else -%}
